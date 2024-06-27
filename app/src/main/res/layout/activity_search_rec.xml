@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6BFB8C00"
+    android:padding="20px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Recipe"
+        android:layout_margin="20px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Recipe to search"
+        android:layout_margin="20px"
+        android:id="@+id/recipesearch"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="SEARCH"
+        android:layout_margin="20px"
+        android:id="@+id/searched"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="BACK TO MENU"
+        android:layout_margin="20px"
+        android:id="@+id/menuback"/>
+</LinearLayout>

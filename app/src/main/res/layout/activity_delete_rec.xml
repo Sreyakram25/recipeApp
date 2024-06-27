@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6BFB8C00"
+    android:padding="20px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Recipe"
+        android:layout_margin="20px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Recipe to delete"
+        android:layout_margin="20px"
+        android:id="@+id/recipedelete"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="DELETE"
+        android:layout_margin="20px"
+        android:id="@+id/deleted"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="BACK TO MENU"
+        android:layout_margin="20px"
+        android:id="@+id/menuback"/>
+</LinearLayout>

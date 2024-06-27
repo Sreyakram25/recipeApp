@@ -1,0 +1,57 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6BFB8C00"
+    android:padding="20px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Title"
+        android:layout_margin="20px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Recipe"
+        android:layout_margin="20px"
+        android:id="@+id/recname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_margin="20px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Description"
+        android:layout_margin="20px"
+        android:id="@+id/desc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prepared By"
+        android:layout_margin="20px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter who Prepared"
+        android:layout_margin="20px"
+        android:id="@+id/prepare"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="SUBMIT"
+        android:layout_margin="20px"
+        android:id="@+id/submited"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8DF4511E"
+        android:text="BACK TO MENU"
+        android:layout_margin="20px"
+        android:id="@+id/menuback"/>
+</LinearLayout>
+
